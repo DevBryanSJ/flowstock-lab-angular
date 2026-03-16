@@ -23,7 +23,7 @@ Este proyecto fue creado para la experimentación y entendimiento práctico de m
 
 ### Arquitectura. -
 
-Para este proyecto se usó _Feature-First Architechture_ con el mótivo de establecer las mejores bases de código limpio para una posible escalabilidad de este proyecto y sus funcionalidades, siguiendo siempre patrones de desarrollo para garantizar la calidad del producto y del ciclo de vida del equipo de desarrollo.
+Para este proyecto se usó _Feature-First Architechture_ con el motivo de establecer las mejores bases de código limpio para una posible escalabilidad de este proyecto y sus funcionalidades, siguiendo siempre patrones de desarrollo para garantizar la calidad del producto y del ciclo de vida del equipo de desarrollo.
 
 ## Autores. -
 
