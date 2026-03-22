@@ -1,5 +1,11 @@
 import { ProductCategory, ProductSubCategories } from '../enums/product_categories';
 
+// ------------------------------------------------------------------------------------------------
+
+/**
+ * Product Category & SubCategory Descriptors Models/Interfaces
+ */
+
 export interface ProductCategoryDescriptor {
   id: ProductCategory;
   key: string;
@@ -11,6 +17,12 @@ export interface ProductSubCategoryDescriptor {
   key: string;
   label: string;
 }
+
+// ------------------------------------------------------------------------------------------------
+
+/**
+ * Product Category & SubCategory Descriptors Constants
+ */
 
 export const PRODUCT_CATEGORY_DESCRIPTORS = {
   [ProductCategory.ELECTRONICS]: {
@@ -360,6 +372,12 @@ export const PRODUCT_SUBCATEGORY_DESCRIPTORS = {
 
 export const PRODUCT_CATEGORY_OPTIONS = Object.values(PRODUCT_CATEGORY_DESCRIPTORS);
 export const PRODUCT_SUBCATEGORY_OPTIONS = Object.values(PRODUCT_SUBCATEGORY_DESCRIPTORS);
+
+// ------------------------------------------------------------------------------------------------
+
+/**
+ * Product Category & SubCategory Descriptors Getter Functions
+ */
 
 export function getProductCategoryDescriptor(
   category: ProductCategory,
